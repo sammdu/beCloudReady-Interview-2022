@@ -12,7 +12,7 @@ Can be found inside [2.python](https://github.com/sammdu/beCloudReady-Interview-
   * 2.1. Setup and running   
   Ensure docker is set up correctly. Then: 
     * Build docker image by `./build.sh`
-    * Run docker image by `./build.sh`   
+    * Run docker image by `./run.sh`   
     * Visit [http://localhost](http://localhost) to access the API endpoints.
     * **Endpoints**:
       * `GET /`: guest list of all guests
