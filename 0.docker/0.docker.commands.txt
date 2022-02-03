@@ -1,0 +1,2 @@
+sudo docker run -dp 5000:80 tiangolo/uwsgi-nginx-flask
+wget -O ./uwsgi-nginx-flask_out.txt localhost:5000
