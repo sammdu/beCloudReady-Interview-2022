@@ -21,4 +21,15 @@ Can be found inside [2.python](https://github.com/sammdu/beCloudReady-Interview-
       * `DELETE /guest/<gid>`: delete guest `<gid>`
 
 3. **Linux**
-    > TBD
+    Setup complete.
+    SSHD config:
+    ```
+    Subsystem	sftp	internal-sftp -d /
+    Match Group sftpusers
+    ChrootDirectory /home/sftpusers
+    
+    # allow `user` to login with password
+    Match User user
+    PasswordAuthentication yes
+    Match all
+    ```
