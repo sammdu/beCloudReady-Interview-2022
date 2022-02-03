@@ -14,6 +14,11 @@ Can be found inside [2.python](https://github.com/sammdu/beCloudReady-Interview-
     * Build docker image by `./build.sh`
     * Run docker image by `./build.sh`   
     * Visit [http://localhost](http://localhost) to access the API endpoints.
+    * **Endpoints**:
+      * `GET /`: guest list of all guests
+      * `GET /add?name=NewGuestName`: add a new guest by the name of `NewGuestName`
+      * `GET /guest/<gid>?name=NewGuestName`: change guest `<gid>`'s name to `NewGuestName`
+      * `DELETE /guest/<gid>`: delete guest `<gid>`
 
 3. **Linux**
     > TBD
