@@ -14,16 +14,12 @@ Can be found inside []().
 ### 2. Python
 Can be found inside []().
 
-#### 2.1. Prerequisites
-* Python 3.9
-	* For Ubuntu: `sudo apt install python3.9 python3.9-venv`
-* Postgresql configured according to instructions
-* Python packages defined in [requirements.txt]()
+#### 2.1. Setup and running
+Ensure docker is set up correctly. Then: 
+* Build docker image by `./build.sh`
+* Run docker image by `./build.sh`
 
-#### 2.2. Setup and running
-
-#### 2.3. API Endpoints
-
+Visit [http://localhost](http://localhost) to access the API endpoints.
 
 ### 3. Linux
 
